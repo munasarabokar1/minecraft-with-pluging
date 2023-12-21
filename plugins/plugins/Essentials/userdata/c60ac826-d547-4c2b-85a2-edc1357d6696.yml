@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.43.22
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703166601293
+  login: 1703166473071
+money: '6010100000'
+logoutlocation:
+  world: 34c3d571-6f6c-45c3-9ca7-facf2a3a2b2e
+  world-name: world
+  x: 135.69999998807907
+  y: 63.0
+  z: 14.18964815055426
+  yaw: -97.80073547363281
+  pitch: 24.90001678466797
+last-account-name: caaqil

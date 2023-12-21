@@ -7,8 +7,8 @@ GriefPrevention:
     world_the_end: -1
   Claims:
     Mode:
-      world_the_end: Disabled
       world: Survival
+      world_the_end: Disabled
       world_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -117,39 +117,39 @@ GriefPrevention:
   Siege:
     Worlds: []
     BreakableBlocks:
-    - PINK_WOOL
-    - BLUE_WOOL
-    - JUNGLE_PLANKS
-    - LIGHT_BLUE_WOOL
-    - WHITE_WOOL
-    - ORANGE_WOOL
-    - DARK_OAK_PLANKS
-    - OAK_PLANKS
-    - PURPLE_WOOL
-    - GRASS_BLOCK
-    - COBBLESTONE
-    - GRAVEL
     - ACACIA_PLANKS
-    - BLACK_WOOL
-    - SNOW
-    - GLASS_PANE
-    - MAGENTA_WOOL
-    - GREEN_WOOL
-    - SAND
-    - SPRUCE_PLANKS
-    - BIRCH_PLANKS
+    - GRASS
     - RED_WOOL
-    - GLASS
+    - GLASS_PANE
+    - GRASS_BLOCK
     - DEAD_BUSH
-    - GRAY_WOOL
-    - SHORT_GRASS
-    - YELLOW_WOOL
-    - CYAN_WOOL
+    - LIGHT_BLUE_WOOL
     - LIGHT_GRAY_WOOL
     - FERN
-    - DIRT
-    - LIME_WOOL
+    - GLASS
+    - WHITE_WOOL
+    - SPRUCE_PLANKS
     - BROWN_WOOL
+    - BIRCH_PLANKS
+    - BLUE_WOOL
+    - DIRT
+    - MAGENTA_WOOL
+    - OAK_PLANKS
+    - LIME_WOOL
+    - GRAVEL
+    - GREEN_WOOL
+    - GRAY_WOOL
+    - CYAN_WOOL
+    - BLACK_WOOL
+    - ORANGE_WOOL
+    - DARK_OAK_PLANKS
+    - YELLOW_WOOL
+    - PINK_WOOL
+    - PURPLE_WOOL
+    - SNOW
+    - SAND
+    - JUNGLE_PLANKS
+    - COBBLESTONE
     DoorsOpenDelayInSeconds: 300
     CooldownEndInMinutes: 60
   EndermenMoveBlocks: false
