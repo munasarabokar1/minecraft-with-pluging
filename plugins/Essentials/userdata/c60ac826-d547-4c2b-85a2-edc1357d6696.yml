@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1703177473638
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1703166601293
-  login: 1703166473071
+  login: 1703177327967
 money: '6010100000'
 logoutlocation:
   world: 34c3d571-6f6c-45c3-9ca7-facf2a3a2b2e
@@ -28,3 +28,11 @@ logoutlocation:
   yaw: -97.80073547363281
   pitch: 24.90001678466797
 last-account-name: caaqil
+lastlocation:
+  world: 34c3d571-6f6c-45c3-9ca7-facf2a3a2b2e
+  world-name: world
+  x: 122.46385071394006
+  y: 73.0
+  z: 54.225275918000165
+  yaw: 94.49832153320312
+  pitch: 22.65003776550293
