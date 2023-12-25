@@ -8,8 +8,17 @@ sudo nano /etc/hosts
 
 
 java -Xmx8G -Xms8G -jar server.jar nogui
+
+
+
 sudo apt install openjdk-17-jdk
 
+
+sudo apt install gedit
+
+gedit eula.txt 
+
+gedit server.properties
 
 127.0.0.1   caaqil
 
