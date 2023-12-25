@@ -6,6 +6,11 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 
 sudo nano /etc/hosts
 
+
+java -Xmx8G -Xms8G -jar server.jar nogui
+sudo apt install openjdk-17-jdk
+
+
 127.0.0.1   caaqil
 
 nano ~/.ssh/config
