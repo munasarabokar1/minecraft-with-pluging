@@ -1,225 +1,543 @@
-[20:10:19] [ServerMain/INFO]: [AdvancedServerList] Loading Libraries for plugin...
-[20:10:19] [ServerMain/INFO]: [AdvancedServerList] Loading com.squareup.okhttp3:okhttp:4.10.0 from repo.papermc.io...
-[20:10:19] [ServerMain/INFO]: [AdvancedServerList] Loading libraries complete!
-[20:10:31] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:10:37] [ServerMain/INFO]: Loaded 1174 recipes
-[20:10:37] [ServerMain/INFO]: Loaded 1271 advancements
-[20:10:37] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[20:10:37] [Server thread/WARN]: ****************************
-[20:10:37] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[20:10:37] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[20:10:37] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[20:10:37] [Server thread/WARN]: ****************************
-[20:10:37] [Server thread/INFO]: Loading properties
-[20:10:38] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
-[20:10:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:10:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:10:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[10:09:04] [ServerMain/INFO]: [AdvancedServerList] Loading Libraries for plugin...
+[10:09:04] [ServerMain/INFO]: [AdvancedServerList] Loading com.squareup.okhttp3:okhttp:4.10.0 from repo.papermc.io...
+[10:09:04] [ServerMain/INFO]: [AdvancedServerList] Loading libraries complete!
+[10:09:10] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:09:14] [ServerMain/INFO]: Loaded 1174 recipes
+[10:09:14] [ServerMain/INFO]: Loaded 1271 advancements
+[10:09:14] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[10:09:14] [Server thread/WARN]: ****************************
+[10:09:14] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[10:09:14] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[10:09:14] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[10:09:14] [Server thread/WARN]: ****************************
+[10:09:14] [Server thread/INFO]: Loading properties
+[10:09:14] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[10:09:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:09:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:09:15] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:10:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:10:40] [Server thread/INFO]: Default game type: SURVIVAL
-[20:10:40] [Server thread/INFO]: Generating keypair
-[20:10:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:10:40] [Server thread/INFO]: Using default channel type
-[20:10:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:10:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:10:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
-[20:10:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.2 is now loaded. Registering protocol transformers and injecting...
-[20:10:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:10:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:10:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:10:43] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
-[20:10:44] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[20:10:44] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[20:10:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:10:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6881dbf7]
-[20:10:45] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[20:10:45] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[20:10:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
-[20:10:45] [Server thread/INFO]: [ShopGUIPlus] Loading server plugin ShopGUIPlus v1.93.0
-[20:10:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+24-0af4436
-[20:10:45] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention vda38fbd
-[20:10:45] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v3.12.5
-[20:10:46] [Server thread/INFO]: [Quests] Loading server plugin Quests v3.14.2-3345d07
-[20:10:46] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+24-0af4436
-[20:10:46] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+24-0af4436
-[20:10:46] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.11
-[20:10:46] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.23
-[20:10:46] [Server thread/INFO]: [AdvancedServerList] Loading server plugin AdvancedServerList v3.3.0-b1
-[20:10:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:10:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
-[20:10:47] [Server thread/INFO]:         __    
-[20:10:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
-[20:10:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:10:47] [Server thread/INFO]: 
-[20:10:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:10:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:10:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:10:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:10:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3679ms)
-[20:10:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:10:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:10:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:10:50] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:10:50] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[20:10:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[20:10:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:10:50] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[20:10:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
-[20:10:53] [Server thread/INFO]: Preparing level "world"
-[20:10:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:10:55] [Server thread/INFO]: Time elapsed: 418 ms
-[20:10:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:10:55] [Server thread/INFO]: Time elapsed: 50 ms
-[20:10:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:10:55] [Server thread/INFO]: Time elapsed: 44 ms
-[20:10:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.2
-[20:10:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
-[20:10:56] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:10:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:10:56] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:10:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[20:10:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:10:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.1
-[20:10:57] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.93.0
-[20:10:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+24-0af4436
-[20:10:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:10:58] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:10:58] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:10:58] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
-[20:10:58] [Server thread/INFO]: [Essentials] Using locale en_US
-[20:10:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:10:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:10:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[20:10:59] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[20:10:59] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention vda38fbd
-[20:10:59] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[20:10:59] [Server thread/INFO]: [GriefPrevention] 1 total claims loaded.
-[20:10:59] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[20:10:59] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[20:10:59] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[20:11:00] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[20:11:00] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
-[20:11:01] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
-[20:11:01] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
-[20:11:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
-[20:11:01] [Server thread/INFO]: [Quests] Enabling Quests v3.14.2-3345d07
-[20:11:01] [Server thread/INFO]: [Quests] Initialising storage provider 'yaml'
-[20:11:01] [Server thread/INFO]: [Quests] Your server is running version 1.20
-[20:11:01] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
-[20:11:01] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+24-0af4436
-[20:11:01] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[20:11:01] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+24-0af4436
-[20:11:01] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[20:11:01] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.11
-[20:11:01] [Server thread/INFO]: [BetterRTP] Cooldown = 600
-[20:11:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.11]
-[20:11:02] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.23
-[20:11:02] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
-[20:11:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [Beta 1.3.23]
-[20:11:02] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
-[20:11:02] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
-[20:11:02] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 0 ms
-[20:11:02] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 33ms
-[20:11:02] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:11:03] [Server thread/INFO]: [AureliumSkills] Loading languages...
-[20:11:06] [Server thread/INFO]: [AureliumSkills] Loaded 17 languages in 3775ms
-[20:11:06] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
-[20:11:07] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 4ms
-[20:11:07] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
-[20:11:07] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
-[20:11:07] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
-[20:11:07] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
-[20:11:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R2! Trying to find NMS support
-[20:11:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R2' loaded!
-[20:11:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AureliumSkills' to create a bStats instance!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Enabling AdvancedServerList v3.3.0-b1
-[20:11:07] [Server thread/INFO]: [AdvancedServerList]            _____ _
-[20:11:07] [Server thread/INFO]: [AdvancedServerList]     /\    / ____| |
-[20:11:07] [Server thread/INFO]: [AdvancedServerList]    /  \  | (___ | |
-[20:11:07] [Server thread/INFO]: [AdvancedServerList]   / /\ \  \___ \| |
-[20:11:07] [Server thread/INFO]: [AdvancedServerList]  / ____ \ ____) | |____
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] /_/    \_\_____/|______|
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] 
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Starting AdvancedServerList v3.3.0-b1...
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Platform: Paper git-Paper-318 (MC: 1.20.2)
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loading config.yml...
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Successfully loaded config.yml!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loading profiles...
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loaded default.yml
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Successfully loaded 1 profiles!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loading Commands...
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Registered /advancedserverlist:advancedserverlist
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Commands loaded!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loading events...
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Events loaded!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loading playercache.json...
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loaded 1 players into cache!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Loading bStats metrics. Disable it in the global config under /plugins/bstats/
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] Metrics loaded!
-[20:11:07] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList is ready!
-[20:11:08] [AdvancedServerList-UpdateThread/INFO]: [AdvancedServerList] Checking for a new update...
-[20:11:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: asl [3.3.0-b1]
-[20:11:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:11:08] [Server thread/INFO]: Running delayed init tasks
-[20:11:08] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[20:11:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: quests [3.14.2-3345d07]
-[20:11:08] [Server thread/INFO]: [Quests] 35 task types have been registered.
-[20:11:08] [Server thread/INFO]: [Quests] 0 quest items have been registered.
-[20:11:08] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:11:08] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:11:08] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:11:08] [Server thread/INFO]: [Quests] 7 quests have been registered.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.93.0 ]================================
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus]  
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] Vault economy registered.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] Vault economy enabled.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] Loaded 10 main menu items.
-[20:11:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded 0 permission-based price modifiers.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] Loaded 7 sounds.
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus]  
-[20:11:09] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
-[20:11:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.1]
-[20:11:09] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[20:11:09] [Server thread/INFO]: Done (31.358s)! For help, type "help"
-[20:11:09] [Server thread/INFO]: Timings Reset
-[20:11:09] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] No new version available
-[20:11:16] [User Authenticator #0/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
-[20:11:17] [Server thread/INFO]: caaqil joined the game
-[20:11:17] [Server thread/INFO]: caaqil[/192.168.43.22:57328] logged in with entity id 97 at ([world]2.9380270377405586, 158.0, 6.562302759371703)
-[20:11:40] [Server thread/INFO]: caaqil issued server command: /sk xp add caaqil agility 200
-[20:11:48] [Server thread/INFO]: caaqil issued server command: /sk
-[20:11:48] [Server thread/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:12:59] [Server thread/INFO]: caaqil issued server command: /sk rank
-[20:13:19] [Server thread/WARN]: [SimpleScore] Task #2722 for SimpleScore v3.12.5 generated an exception
+[10:09:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[10:09:16] [Server thread/INFO]: Default game type: SURVIVAL
+[10:09:16] [Server thread/INFO]: Generating keypair
+[10:09:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:09:16] [Server thread/INFO]: Using default channel type
+[10:09:16] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:09:16] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loading 1 libraries... please wait
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library C:\Users\Administrator\Documents\GitHub\minecraft-with-pluging\libraries\org\openjdk\nashorn\nashorn-core\15.4\nashorn-core-15.4.jar
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library C:\Users\Administrator\Documents\GitHub\minecraft-with-pluging\libraries\org\ow2\asm\asm\7.3.1\asm-7.3.1.jar
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library C:\Users\Administrator\Documents\GitHub\minecraft-with-pluging\libraries\org\ow2\asm\asm-commons\7.3.1\asm-commons-7.3.1.jar
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library C:\Users\Administrator\Documents\GitHub\minecraft-with-pluging\libraries\org\ow2\asm\asm-analysis\7.3.1\asm-analysis-7.3.1.jar
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library C:\Users\Administrator\Documents\GitHub\minecraft-with-pluging\libraries\org\ow2\asm\asm-tree\7.3.1\asm-tree-7.3.1.jar
+[10:09:17] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library C:\Users\Administrator\Documents\GitHub\minecraft-with-pluging\libraries\org\ow2\asm\asm-util\7.3.1\asm-util-7.3.1.jar
+[10:09:21] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
+[10:09:21] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.2 is now loaded. Registering protocol transformers and injecting...
+[10:09:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:09:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:09:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[10:09:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[10:09:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:09:23] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[10:09:23] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[10:09:23] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.2) has not yet been tested! Proceed with caution.
+[10:09:25] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 10000, banned: 1000], type={ type input instanceof interface java.util.Map }}
+  	at ProtocolLib.jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:352)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.createNewRegister(PacketRegistry.java:188)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.initialize(PacketRegistry.java:292)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.getClientPacketTypes(PacketRegistry.java:327)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:120)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:121)
+  	at ProtocolLib.jar//com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:183)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+  	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.loadPlugins(CraftServer.java:514)
+  	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:273)
+  	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1086)
+  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+  	at java.base/java.lang.Thread.run(Thread.java:1623)
+  Dump:
+  Parameters: 
+    [NULL]
+  Sender:
+    com.comphenix.protocol.ProtocolLib@3cefe981[
+      statistics=<null>
+      packetTask=<null>
+      tickCounter=0
+      configExpectedMod=-1
+      updater=com.comphenix.protocol.updater.SpigotUpdater@60923944
+      redirectHandler=<null>
+      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@3a5929ef
+      commandProtocol=<null>
+      commandPacket=<null>
+      commandFilter=<null>
+      packetLogging=<null>
+      skipDisable=false
+      isEnabled=false
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@268b4fc2
+      server=CraftServer{serverName=Paper,serverVersion=git-Paper-318,minecraftVersion=1.20.2}
+      file=plugins\ProtocolLib.jar
+      description=org.bukkit.plugin.PluginDescriptionFile@4e297200
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@4e297200
+      dataFolder=plugins\ProtocolLib
+      classLoader=PluginClassLoader{plugin=ProtocolLib v5.1.0, pluginEnabled=false, url=plugins\ProtocolLib.jar}
+      naggable=true
+      newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+      configFile=plugins\ProtocolLib\config.yml
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@b24cb82
+    ]
+  Version:
+    ProtocolLib v5.1.0
+  Java Version:
+    20.0.2
+  Server:
+    git-Paper-318 (MC: 1.20.2)
+
+[10:09:25] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[10:09:25] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+24-0af4436
+[10:09:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[10:09:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@38c2d3b0]
+[10:09:26] [Server thread/INFO]: [ShopGUIPlus] Loading server plugin ShopGUIPlus v1.93.0
+[10:09:26] [Server thread/INFO]: [SuperiorSkyblock2] Loading server plugin SuperiorSkyblock2 v2023.3
+[10:09:26] [Server thread/INFO]: [PlotSquared] Loading server plugin PlotSquared v7.3.0-Premium
+[10:09:26] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[10:09:26] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[10:09:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
+[10:09:26] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention vda38fbd
+[10:09:26] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v3.12.5
+[10:09:27] [Server thread/INFO]: [Quests] Loading server plugin Quests v3.14.2-3345d07
+[10:09:27] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
+[10:09:27] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+24-0af4436
+[10:09:27] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+24-0af4436
+[10:09:27] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.11
+[10:09:27] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.23
+[10:09:27] [Server thread/INFO]: [AdvancedServerList] Loading server plugin AdvancedServerList v3.3.0-b1
+[10:09:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:09:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[10:09:27] [Server thread/INFO]:         __    
+[10:09:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[10:09:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:09:27] [Server thread/INFO]: 
+[10:09:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:09:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:09:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:09:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:09:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2859ms)
+[10:09:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:09:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:09:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:09:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:09:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:09:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[10:09:30] [Server thread/ERROR]: ******************************************************
+[10:09:30] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[10:09:30] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[10:09:30] [Server thread/ERROR]: ******************************************************
+[10:09:30] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[10:09:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[10:09:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:09:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:09:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
+[10:09:33] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v7.3.0-Premium
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Loaded caption map for namespace 'plotsquared': com.plotsquared.core.configuration.caption.LocalizedCaptionMap
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: plot-expiry | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: worlds | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-named-road-mobs | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: per-user-locale | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: worldedit-restrictions | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: external-placeholders | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-owned-road-mobs | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: disable-beacon-effect-overflow | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: database | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: component-presets | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: chunk-processor | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: extended-username-completion | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: events | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: commands | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-mobs | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-items | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: database-purger | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: economy | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: persistent-road-regen | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-vehicles | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: default-locale | Value: en
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: use-mvdwapi | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: persistent-meta | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: tab-completed-aliases | Value: [plot, plots, p, plotsquared, plot2, p2, ps, 2, plotme, plotz, ap]
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: ban-deleter | Value: false
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: update-notifications | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: rating-cache | Value: true
+[10:09:33] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: comment-notifier | Value: true
+[10:09:34] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared version licensed to Spigot user 533383
+[10:09:34] [Server thread/INFO]: [PlotSquared/BukkitPlatform] https://www.spigotmc.org/resources/77506
+[10:09:34] [Server thread/INFO]: [PlotSquared/BukkitPlatform] Download ID: 689050734
+[10:09:34] [Server thread/INFO]: [PlotSquared/BukkitPlatform] Thanks for supporting us :)
+[10:09:34] [Server thread/INFO]: [PlotSquared/PlotSquared] Connection to database established. Type: SQLite
+[10:09:34] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared hooked into WorldEdit
+[10:09:35] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using LuckPerms as a complementary UUID service
+[10:09:35] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using EssentialsX as a complementary UUID service
+[10:09:35] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using Paper as a complementary UUID service
+[10:09:35] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) 0 UUIDs will be cached
+[10:09:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plotsquared [3]
+[10:09:35] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared hooked into PlaceholderAPI
+[10:09:35] [Server thread/INFO]: Preparing level "world"
+[10:09:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:09:36] [Server thread/INFO]: Time elapsed: 222 ms
+[10:09:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:09:36] [Server thread/INFO]: Time elapsed: 128 ms
+[10:09:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:09:36] [Server thread/INFO]: Time elapsed: 31 ms
+[10:09:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.2
+[10:09:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
+[10:09:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[10:09:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:09:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+24-0af4436
+[10:09:37] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[10:09:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:09:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:09:38] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[10:09:38] [Server thread/INFO]: [Essentials] Using locale en_US
+[10:09:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:09:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:09:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:09:38] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:09:38] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.93.0
+[10:09:38] [Server thread/INFO]: [SuperiorSkyblock2] Enabling SuperiorSkyblock2 v2023.3
+[10:09:38] [Server thread/INFO]: Preparing start region for dimension minecraft:superiorworld
+[10:09:38] [Server thread/INFO]: Time elapsed: 37 ms
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module bank...
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module bank (Took 9ms)
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module missions...
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_1
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_2
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_3
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_4
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_5
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_1
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_2
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_3
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_4
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_1
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_2
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_3
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_4
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_5
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_1
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_2
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_3
+[10:09:39] [Server thread/WARN]: Plugin 'SuperiorSkyblock2' is creating timing 'Plugin: SuperiorSkyblock2 v2023.3 Event: DynamicRegisteredListener::IslandSchematicPasteEvent(IslandSchematicPasteEvent)' - this is deprecated behavior, please report it to the authors: Ome_R
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission explorer_1
+[10:09:39] [Server thread/WARN]: Plugin 'SuperiorSkyblock2' is creating timing 'Plugin: SuperiorSkyblock2 v2023.3 Event: DynamicRegisteredListener::IslandSchematicPasteEvent(IslandSchematicPasteEvent)' - this is deprecated behavior, please report it to the authors: Ome_R
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission explorer_2
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module missions (Took 888ms)
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module generators...
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module generators (Took 7ms)
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module upgrades...
+[10:09:39] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module upgrades (Took 23ms)
+[10:09:40] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages started...
+[10:09:40] [Server thread/INFO]: [SuperiorSkyblock2]  - Found 698 messages in the language files.
+[10:09:40] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages done (Took 393ms)
+[10:09:40] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:09:45] [pool-25-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared will fetch UUIDs in groups of 200
+[10:09:45] [pool-25-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared has cached all UUIDs
+[10:09:47] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert_nether.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert_the_end.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel_nether.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel_the_end.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal.schematic (DefaultSchematicParser)
+[10:09:48] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal_nether.schematic (DefaultSchematicParser)
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal_the_end.schematic (DefaultSchematicParser)
+[10:09:49] [Server thread/WARN]: [SuperiorSkyblock2] [biomes.yml] Biome 'WOODED_HILLS' is not valid, skipping...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Trying to connect to local database (SQLite)...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Successfully established connection with local database!
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Creating a backup file...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Backup done!
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load players...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Finished loading 1 players (Took 20ms)
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load islands...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Finished loading 0 islands (Took 23ms)
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load grid...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Finished grid!
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load stacked blocks...
+[10:09:49] [Server thread/INFO]: [SuperiorSkyblock2] Finished stacked blocks!
+[10:09:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[10:09:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[10:09:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[10:09:50] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) TNT ignition is PERMITTED.
+[10:09:50] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) Lighters are PERMITTED.
+[10:09:50] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) Lava fire is PERMITTED.
+[10:09:50] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) Fire spread is UNRESTRICTED.
+[10:09:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SuperiorWorld'
+[10:09:50] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:09:50] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[10:09:50] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[10:09:50] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[10:09:50] [Server thread/INFO]: [PlotSquared/PlotSquared] Detected world load for 'plots'
+[10:09:50] [Server thread/INFO]: [PlotSquared/PlotSquared] - generator: PlotSquared>PlotSquared
+[10:09:50] [Server thread/INFO]: [PlotSquared/PlotSquared] - plot world: com.plotsquared.core.generator.HybridPlotWorld
+[10:09:50] [Server thread/INFO]: [PlotSquared/PlotSquared] - plot area manager: com.plotsquared.core.generator.HybridPlotManager
+[10:09:50] [Server thread/INFO]: [P2] Loading flags for area: plots
+[10:09:50] [Server thread/INFO]: [P2] Area flags: []
+[10:09:50] [Server thread/INFO]: [P2] Road flags: []
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] - road schematic: false
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] - Dumping settings for ClassicPlotWorld with name plots
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_schematic_enabled = false
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_schematic = false
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- path_width_lower = 3
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- path_width_upper = 46
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- schem_y = 62
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_height = 62
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_height = 62
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- wall_height = 62
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- main_block = minecraft:stone
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- top_block = minecraft:grass_block
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- wall_block = minecraft:stone_slab
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- claimed_wall_block = minecraft:sandstone_slab
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- wall_filling = minecraft:stone
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_block = minecraft:quartz_block
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_bedrock = true
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- place_top_block = true
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_width = 42
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_width = 7
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_offset_x = 0
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_offset_z = 0
+[10:09:50] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- size = 49
+[10:09:50] [Server thread/INFO]: Preparing start region for dimension minecraft:plots
+[10:09:51] [Server thread/INFO]: Time elapsed: 1077 ms
+[10:09:51] [Server thread/INFO]: [WorldGuard] (plots) TNT ignition is PERMITTED.
+[10:09:51] [Server thread/INFO]: [WorldGuard] (plots) Lighters are PERMITTED.
+[10:09:51] [Server thread/INFO]: [WorldGuard] (plots) Lava fire is PERMITTED.
+[10:09:51] [Server thread/INFO]: [WorldGuard] (plots) Fire spread is UNRESTRICTED.
+[10:09:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'plots'
+[10:09:52] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[10:09:52] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[10:09:52] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[10:09:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.1
+[10:09:52] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention vda38fbd
+[10:09:52] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[10:09:52] [Server thread/INFO]: [GriefPrevention] 1 total claims loaded.
+[10:09:52] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[10:09:52] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[10:09:52] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[10:09:52] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[10:09:52] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
+[10:09:53] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[10:09:53] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[10:09:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
+[10:09:53] [Server thread/INFO]: [Quests] Enabling Quests v3.14.2-3345d07
+[10:09:53] [Server thread/INFO]: [Quests] Initialising storage provider 'yaml'
+[10:09:53] [Server thread/INFO]: [Quests] Your server is running version 1.20
+[10:09:53] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
+[10:09:53] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
+[10:09:53] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
+[10:09:53] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+24-0af4436
+[10:09:53] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[10:09:53] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+24-0af4436
+[10:09:53] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[10:09:53] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.11
+[10:09:54] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[10:09:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.11]
+[10:09:54] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.23
+[10:09:54] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
+[10:09:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [Beta 1.3.23]
+[10:09:54] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[10:09:54] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[10:09:54] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 1 ms
+[10:09:54] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 19ms
+[10:09:55] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[10:09:55] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[10:09:57] [Server thread/INFO]: [AureliumSkills] Loaded 17 languages in 2444ms
+[10:09:57] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[10:09:58] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 4ms
+[10:09:58] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[10:09:58] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[10:09:58] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[10:09:58] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[10:09:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R2! Trying to find NMS support
+[10:09:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R2' loaded!
+[10:09:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AureliumSkills' to create a bStats instance!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Enabling AdvancedServerList v3.3.0-b1
+[10:09:58] [Server thread/INFO]: [AdvancedServerList]            _____ _
+[10:09:58] [Server thread/INFO]: [AdvancedServerList]     /\    / ____| |
+[10:09:58] [Server thread/INFO]: [AdvancedServerList]    /  \  | (___ | |
+[10:09:58] [Server thread/INFO]: [AdvancedServerList]   / /\ \  \___ \| |
+[10:09:58] [Server thread/INFO]: [AdvancedServerList]  / ____ \ ____) | |____
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] /_/    \_\_____/|______|
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] 
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Starting AdvancedServerList v3.3.0-b1...
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Platform: Paper git-Paper-318 (MC: 1.20.2)
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loading config.yml...
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Successfully loaded config.yml!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loading profiles...
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loaded default.yml
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Successfully loaded 1 profiles!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loading Commands...
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Registered /advancedserverlist:advancedserverlist
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Commands loaded!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loading events...
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Events loaded!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loading playercache.json...
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loaded 2 players into cache!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Loading bStats metrics. Disable it in the global config under /plugins/bstats/
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] Metrics loaded!
+[10:09:58] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList is ready!
+[10:09:58] [AdvancedServerList-UpdateThread/INFO]: [AdvancedServerList] Checking for a new update...
+[10:09:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: asl [3.3.0-b1]
+[10:09:59] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:09:59] [Server thread/INFO]: Running delayed init tasks
+[10:09:59] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Using LuckPerms as a permissions provider.
+[10:09:59] [Craft Scheduler Thread - 8 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[10:09:59] [Craft Scheduler Thread - 10 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Using ShopGUIPlus as a prices provider.
+[10:09:59] [Craft Scheduler Thread - 21 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Hooked into Essentials for support of vanish status of players.
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Hooked into Essentials for support of afk status of players.
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Using Vault as an economy provider.
+[10:09:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: superior [2023.3]
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Using PlaceholderAPI for placeholders support.
+[10:09:59] [Server thread/INFO]: [SuperiorSkyblock2] Detected PaperSpigot - Using async chunk-loading support with PaperMC.
+[10:09:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: quests [3.14.2-3345d07]
+[10:09:59] [Server thread/INFO]: [Quests] 37 task types have been registered.
+[10:09:59] [Server thread/INFO]: [Quests] 0 quest items have been registered.
+[10:09:59] [Server thread/INFO]: [Quests] 7 quests have been registered.
+[10:09:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.1]
+[10:09:59] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.93.0 ]================================
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus]  
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Vault economy registered.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Vault economy enabled.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded 10 main menu items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded 0 permission-based price modifiers.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] Loaded 7 sounds.
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus]  
+[10:09:59] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[10:09:59] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[10:09:59] [Server thread/INFO]: Done (45.164s)! For help, type "help"
+[10:09:59] [Server thread/INFO]: Timings Reset
+[10:09:59] [Craft Scheduler Thread - 4 - PlotSquared/INFO]: [PlotSquared/UpdateUtility] There appears to be a PlotSquared update available!
+[10:09:59] [Craft Scheduler Thread - 4 - PlotSquared/INFO]: [PlotSquared/UpdateUtility] You are running version 7.3.0-Premium, the latest version is 7.3.1
+[10:09:59] [Craft Scheduler Thread - 4 - PlotSquared/INFO]: [PlotSquared/UpdateUtility] https://www.spigotmc.org/resources/77506/updates
+[10:10:00] [Craft Scheduler Thread - 21 - Vault/INFO]: [Vault] No new version available
+[10:10:52] [User Authenticator #0/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:10:54] [Server thread/INFO]: caaqil joined the game
+[10:10:54] [Server thread/INFO]: caaqil[/127.0.0.1:50053] logged in with entity id 207 at ([world]4.5, 152.0, -0.5)
+[10:10:55] [Server thread/WARN]: [SimpleScore] Task #1549 for SimpleScore v3.12.5 generated an exception
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.Collections$SingletonList.get(Collections.java:4961) ~[?:?]
+	at com.r4g3baby.simplescore.scoreboard.models.PlayerLine.getShouldRender(PlayerLine.kt:22) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.getPlayerScoreboard(ScoreboardTask.kt:125) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.getPlayerScoreboards(ScoreboardTask.kt:102) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.run$lambda$8(ScoreboardTask.kt:76) ~[SimpleScore-3.12.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1470) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1379) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1156) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+[10:11:32] [Server thread/INFO]: caaqil issued server command: /eco take caaqil 100000000
+[10:12:14] [Server thread/INFO]: caaqil issued server command: /eco take caaqil 5900000000
+[10:12:39] [Server thread/INFO]: caaqil issued server command: /echo take caaqil 10000000
+[10:13:09] [Server thread/INFO]: caaqil issued server command: /eco take caaqil 10000000
+[10:13:42] [Server thread/INFO]: caaqil issued server command: /mv list
+[10:14:00] [Server thread/INFO]: caaqil issued server command: /mv import lobby normal
+[10:14:00] [Server thread/INFO]: caaqil: Starting import of world 'lobby'...
+[10:14:00] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: null
+[10:14:01] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[10:14:01] [Server thread/INFO]: Time elapsed: 7 ms
+[10:14:01] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[10:14:01] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[10:14:01] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[10:14:01] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[10:14:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[10:14:01] [Server thread/INFO]: caaqil: Complete!
+[10:14:08] [Server thread/INFO]: caaqil issued server command: /mv tp lobby
+[10:14:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5163ms or 103 ticks behind
+[10:15:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5173ms or 103 ticks behind
+[10:15:15] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:15:15] [Server thread/INFO]: caaqil left the game
+[10:15:22] [User Authenticator #1/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:15:22] [Server thread/INFO]: caaqil joined the game
+[10:15:22] [Server thread/INFO]: caaqil[/127.0.0.1:50090] logged in with entity id 492 at ([lobby]-21.0, 154.0, -99.0)
+[10:15:42] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:15:42] [Server thread/INFO]: caaqil left the game
+[10:15:45] [User Authenticator #1/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:15:46] [Server thread/INFO]: caaqil joined the game
+[10:15:46] [Server thread/INFO]: caaqil[/127.0.0.1:50099] logged in with entity id 493 at ([lobby]-21.0, 154.0, -99.0)
+[10:15:54] [Server thread/INFO]: caaqil issued server command: /mv tp plots
+[10:16:04] [Server thread/INFO]: caaqil issued server command: /mv remove lobby
+[10:16:04] [Server thread/INFO]: [Multiverse-Core] World 'lobby' was unloaded from Multiverse.
+[10:16:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[10:16:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[10:16:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[10:16:05] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 0 entity chunks, 0 poi chunks in world 'lobby' in 0.03s
+[10:16:05] [Server thread/INFO]: [Multiverse-Core] World 'lobby' was unloaded from Bukkit.
+[10:16:05] [Server thread/INFO]: [Multiverse-Core] World 'lobby' was removed from config.yml
+[10:24:36] [Server thread/INFO]: caaqil issued server command: /mv list
+[10:25:25] [Server thread/INFO]: caaqil issued server command: /mv import lobby normal
+[10:25:25] [Server thread/INFO]: caaqil: Starting import of world 'lobby'...
+[10:25:25] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: null
+[10:25:25] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[10:25:25] [Server thread/INFO]: Time elapsed: 40 ms
+[10:25:25] [Server thread/INFO]: caaqil: Complete!
+[10:25:32] [Server thread/INFO]: caaqil issued server command: /mv tp lobby
+[10:26:11] [Server thread/INFO]: caaqil issued server command: /gamemode creative caaqil
+[10:27:57] [Server thread/WARN]: [SimpleScore] Task #22295 for SimpleScore v3.12.5 generated an exception
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.r4g3baby.simplescore.scoreboard.models.PlayerLine.getCurrentText(PlayerLine.kt:13) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.getPlayerScoreboard(ScoreboardTask.kt:136) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.getPlayerScoreboards(ScoreboardTask.kt:102) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.run$lambda$8(ScoreboardTask.kt:76) ~[SimpleScore-3.12.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1470) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1379) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1156) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+[10:28:08] [Server thread/WARN]: [SimpleScore] Task #22499 for SimpleScore v3.12.5 generated an exception
 java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
 	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
@@ -238,71 +556,144 @@ java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1156) ~[paper-1.20.2.jar:git-Paper-318]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
 	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
-[20:13:25] [Server thread/INFO]: caaqil issued server command: /sk xp add caaqil farming 1000
-[20:13:34] [Server thread/INFO]: caaqil issued server command: /sk
-[20:13:59] [Server thread/INFO]: caaqil issued server command: /sk xp add caaqil fighting 1000000
-[20:14:37] [Server thread/INFO]: caaqil issued server command: /sk
-[20:14:54] [Server thread/INFO]: caaqil issued server command: /sk
-[20:15:47] [Server thread/INFO]: caaqil issued server command: /sk
-[20:16:04] [Server thread/INFO]: caaqil issued server command: /sk xp add caaqil agility 1000000
-[20:16:37] [Server thread/INFO]: caaqil issued server command: /sk
-[20:17:43] [Server thread/INFO]: caaqil issued server command: /sk xp add caaqil agility 100000
-[20:17:54] [Server thread/INFO]: caaqil issued server command: /sk xp add caaqil agility 10000000
-[20:18:08] [Server thread/INFO]: caaqil issued server command: /sk
-[20:19:01] [Server thread/INFO]: caaqil was doomed to fall by Skeleton
-[20:19:17] [Server thread/INFO]: caaqil issued server command: /time set day
-[20:19:48] [Server thread/INFO]: caaqil lost connection: Disconnected
-[20:19:48] [Server thread/INFO]: caaqil left the game
-[20:19:51] [Server thread/INFO]: Stopping server
-[20:19:51] [Server thread/INFO]: [AdvancedServerList] Disabling AdvancedServerList v3.3.0-b1
-[20:19:51] [Server thread/INFO]: [AdvancedServerList] Saving playercache.json file...
-[20:19:51] [Server thread/INFO]: [AdvancedServerList] Successfully saved playercache.json file.
-[20:19:51] [Server thread/INFO]: [AdvancedServerList] Disabling Update Checker...
-[20:19:51] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList disabled!
-[20:19:51] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.23
-[20:19:51] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+24-0af4436
-[20:19:51] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+24-0af4436
-[20:19:51] [Server thread/INFO]: [Quests] Disabling Quests v3.14.2-3345d07
-[20:19:51] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.5
-[20:19:51] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention vda38fbd
-[20:19:51] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[20:19:51] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+24-0af4436
-[20:19:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[20:19:51] [Server thread/INFO]: [ShopGUIPlus] Disabling ShopGUIPlus v1.93.0
-[20:19:51] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
-[20:19:51] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
-[20:19:51] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
-[20:19:51] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[20:19:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[20:19:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:19:51] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[20:19:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
-[20:19:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:19:51] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:19:51] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:19:51] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.2
-[20:19:51] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[20:19:51] [Server thread/INFO]: Saving players
-[20:19:51] [Server thread/INFO]: Saving worlds
-[20:19:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:19:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:19:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:19:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1762 block chunks, 351 entity chunks, 0 poi chunks in world 'world' in 5.58s
-[20:19:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:19:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[20:19:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:19:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:19:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:19:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:19:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:19:57] [Server thread/INFO]: Flushing Chunk IO
-[20:19:57] [Server thread/INFO]: Closing Thread Pool
-[20:19:57] [Server thread/INFO]: Closing Server
+[10:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6443ms or 128 ticks behind
+[10:40:44] [Server thread/WARN]: [SimpleScore] Task #37624 for SimpleScore v3.12.5 generated an exception
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.r4g3baby.simplescore.scoreboard.models.PlayerLine.getCurrentText(PlayerLine.kt:13) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.getPlayerScoreboard(ScoreboardTask.kt:136) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.getPlayerScoreboards(ScoreboardTask.kt:102) ~[SimpleScore-3.12.5.jar:?]
+	at com.r4g3baby.simplescore.scoreboard.tasks.ScoreboardTask.run$lambda$8(ScoreboardTask.kt:76) ~[SimpleScore-3.12.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1470) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1379) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1156) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+[10:42:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R2! Trying to find NMS support
+[10:42:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R2' loaded!
+[10:42:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'ShopGUIPlus' to create a bStats instance!
+[10:42:25] [Server thread/INFO]: caaqil issued server command: /setspawn
+[10:42:32] [Server thread/INFO]: caaqil issued server command: /mv setspawn
+[10:43:14] [Server thread/INFO]: caaqil issued server command: /setworldspawn
+[10:43:14] [Server thread/INFO]: [caaqil: Set the world spawn point to -265, 18, 108 [0.0]]
+[10:43:26] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:43:26] [Server thread/INFO]: caaqil left the game
+[10:43:30] [User Authenticator #2/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:43:31] [Server thread/INFO]: caaqil joined the game
+[10:43:31] [Server thread/INFO]: caaqil[/127.0.0.1:51003] logged in with entity id 767 at ([lobby]-263.3010255436127, 16.0, 118.60224482547103)
+[10:46:25] [Server thread/INFO]: caaqil issued server command: /setspawn
+[10:46:38] [Server thread/INFO]: caaqil issued server command: /mv setspawn
+[10:46:43] [Server thread/INFO]: caaqil issued server command: /setworldspawn
+[10:46:43] [Server thread/INFO]: [caaqil: Set the world spawn point to -265, 18, 108 [0.0]]
+[10:46:49] [Server thread/INFO]: caaqil issued server command: /spawn
+[10:47:04] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:47:04] [Server thread/INFO]: caaqil left the game
+[10:47:07] [User Authenticator #3/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:47:07] [Server thread/INFO]: caaqil joined the game
+[10:47:07] [Server thread/INFO]: caaqil[/127.0.0.1:51038] logged in with entity id 772 at ([lobby]-283.69999998807907, 15.5, 126.13003117595042)
+[10:47:18] [Server thread/INFO]: caaqil issued server command: /mv tp world
+[10:47:22] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:47:22] [Server thread/INFO]: caaqil left the game
+[10:47:25] [User Authenticator #3/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:47:26] [Server thread/INFO]: caaqil joined the game
+[10:47:26] [Server thread/INFO]: caaqil[/127.0.0.1:51048] logged in with entity id 800 at ([world]0.0, 151.0, 0.0)
+[10:47:31] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:47:31] [Server thread/INFO]: caaqil left the game
+[10:48:41] [User Authenticator #4/INFO]: UUID of player caaqil is c60ac826-d547-4c2b-85a2-edc1357d6696
+[10:48:41] [Server thread/INFO]: caaqil joined the game
+[10:48:41] [Server thread/INFO]: caaqil[/127.0.0.1:51057] logged in with entity id 814 at ([world]0.0, 151.0, 0.0)
+[10:48:47] [Server thread/INFO]: caaqil issued server command: /rtp
+[10:49:04] [Server thread/INFO]: caaqil issued server command: /rtp
+[10:49:17] [Server thread/INFO]: caaqil lost connection: Disconnected
+[10:49:17] [Server thread/INFO]: caaqil left the game
+[11:03:22] [Server thread/INFO]: Stopping server
+[11:03:22] [Server thread/INFO]: [AdvancedServerList] Disabling AdvancedServerList v3.3.0-b1
+[11:03:22] [Server thread/INFO]: [AdvancedServerList] Saving playercache.json file...
+[11:03:22] [Server thread/INFO]: [AdvancedServerList] Successfully saved playercache.json file.
+[11:03:22] [Server thread/INFO]: [AdvancedServerList] Disabling Update Checker...
+[11:03:22] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList disabled!
+[11:03:22] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.23
+[11:03:22] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+24-0af4436
+[11:03:22] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+24-0af4436
+[11:03:22] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[11:03:22] [Server thread/INFO]: [Quests] Disabling Quests v3.14.2-3345d07
+[11:03:22] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.5
+[11:03:22] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention vda38fbd
+[11:03:22] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[11:03:22] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
+[11:03:22] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[11:03:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[11:03:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[11:03:22] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v7.3.0-Premium
+[11:03:22] [Server thread/INFO]: [PlotSquared/SQLManager] All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Disabling SuperiorSkyblock2 v2023.3
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module bank...
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module missions...
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module generators...
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module upgrades...
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down calculation task...
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down executor
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down database executor
+[11:03:22] [Server thread/INFO]: [SuperiorSkyblock2] Closing database. This may hang the server. Do not shut it down, or data may get lost.
+[11:03:22] [Server thread/INFO]: [ShopGUIPlus] Disabling ShopGUIPlus v1.93.0
+[11:03:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[11:03:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:03:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+24-0af4436
+[11:03:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:03:22] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[11:03:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:03:22] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[11:03:22] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:03:22] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:03:22] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:03:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.2
+[11:03:22] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[11:03:22] [Server thread/INFO]: Saving players
+[11:03:22] [Server thread/INFO]: Saving worlds
+[11:03:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Saved 39 block chunks, 108 entity chunks, 0 poi chunks in world 'world' in 0.13s
+[11:03:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:03:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:03:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 28 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[11:03:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:03:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[11:03:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:03:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SuperiorWorld]'/minecraft:superiorworld
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'SuperiorWorld'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'SuperiorWorld'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'SuperiorWorld'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Saved 1149 block chunks, 0 entity chunks, 0 poi chunks in world 'SuperiorWorld' in 0.51s
+[11:03:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (SuperiorWorld): All chunks are saved
+[11:03:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[plots]'/minecraft:plots
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'plots'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'plots'
+[11:03:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'plots'
+[11:03:24] [Server thread/INFO]: [ChunkHolderManager] Saved 688 block chunks, 0 entity chunks, 0 poi chunks in world 'plots' in 0.38s
+[11:03:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (plots): All chunks are saved
+[11:03:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:lobby
+[11:03:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[11:03:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[11:03:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[11:03:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'lobby' in 0.02s
+[11:03:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[11:03:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:03:24] [Server thread/INFO]: Flushing Chunk IO
+[11:03:24] [Server thread/INFO]: Closing Thread Pool
+[11:03:24] [Server thread/INFO]: Closing Server

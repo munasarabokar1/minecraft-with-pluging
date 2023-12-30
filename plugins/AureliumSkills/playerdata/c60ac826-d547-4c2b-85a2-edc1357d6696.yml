@@ -20,16 +20,16 @@ skills:
     xp: 0.0
   defense:
     level: 1
-    xp: 3.0
+    xp: 13.5
   fighting:
     level: 32
     xp: 51400.0
   endurance:
     level: 1
-    xp: 41.0
+    xp: 80.0
   agility:
     level: 70
-    xp: 380040.80000000034
+    xp: 380050.4000000003
   alchemy:
     level: 1
     xp: 0.0

@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 192.168.43.22
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1703177473638
+  lastteleport: 1703749609033
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1703179188377
-  login: 1703178678040
-money: '6010100000'
+  logout: 1703749757714
+  login: 1703749721399
+money: '100000'
 logoutlocation:
   world: 686c6c20-2f54-479e-ab0d-0aa89bed3522
   world-name: world
-  x: 13.598283212774515
-  y: 135.0
-  z: -29.74340442716319
-  yaw: 49.19976806640625
-  pitch: 3.7499866485595703
+  x: 0.0
+  y: 151.0
+  z: 0.0
+  yaw: 179.54991149902344
+  pitch: -7.349973678588867
 last-account-name: caaqil
 lastlocation:
   world: 686c6c20-2f54-479e-ab0d-0aa89bed3522
   world-name: world
-  x: -6.5
-  y: 146.0
-  z: -1.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 0.0
+  y: 151.0
+  z: 0.0
+  yaw: 179.54991149902344
+  pitch: -7.349973678588867
